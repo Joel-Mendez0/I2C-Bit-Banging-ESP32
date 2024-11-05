@@ -36,7 +36,10 @@ This project demonstrates a custom I2C bit-banging implementation to enable comm
 	end_time = esp_timer_get_time();
 	printf("Master Transmit Time: %lld microseconds\n", (end_time - start_time));
 ```
-![image](https://github.com/user-attachments/assets/3bdeb54c-be5a-4511-94aa-5ec5ef8eb2f7)
+
+## Pulse View
+
+![image](https://github.com/user-attachments/assets/beb5ba5f-e013-4291-903e-85f1863a3554)
 
 ## Setup Instructions
 
