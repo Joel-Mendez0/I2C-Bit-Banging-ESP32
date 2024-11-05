@@ -109,13 +109,13 @@ void StopConditionI2C(void) {
 
 	while (SCL_LEVEL); // Wait for clock to go low
         
-    gpio_set_level(SDA, LOW);     
+   	 gpio_set_level(SDA, LOW);     
    
    	while (!SCL_LEVEL); // Wait for clock to go high
     
-    gpio_set_level(SDA, HIGH); // Float SDA line
+    	gpio_set_level(SDA, HIGH); // Float SDA line
     
-    while(!SCL_LEVEL);
+    	while(!SCL_LEVEL);
 
 }
 
