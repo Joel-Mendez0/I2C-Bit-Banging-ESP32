@@ -6,8 +6,7 @@ This project demonstrates a custom I2C bit-banging implementation to enable comm
 ## Features
 
 - Custom I2C bit-banging implementation.
-- Supports data transmission and reception between two ESP32s.
-- Handles 1000-byte data transfers in approximately 173 milliseconds.
+- Handles 1000-byte data transfers in approximately 450 milliseconds.
 - Optimized for performance with efficient use of DRAM and IRAM.
 - Fully implemented in C using the ESP-IDF framework.
 
