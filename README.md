@@ -45,8 +45,8 @@ This project demonstrates a custom I2C bit-banging implementation to enable comm
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/Joel-Mendez0/SPI-Bit-Banging-ESP32.git
-   cd I2C
+   git clone https://github.com/Joel-Mendez0/I2C-Bit-Banging-ESP32.git
+   cd I2C-Bit-Banging-ESP32
    ```
 
 2. **Configure the ESP-IDF environment**:
