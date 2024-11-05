@@ -1,0 +1,12 @@
+Total sizes:
+Used static DRAM:   11132 bytes ( 169604 remain, 6.2% used)
+      .data size:    8788 bytes
+      .bss  size:    2344 bytes
+Used static IRAM:   51394 bytes (  79678 remain, 39.2% used)
+      .text size:   50367 bytes
+   .vectors size:    1027 bytes
+Used Flash size :  130263 bytes
+           .text:   87931 bytes
+         .rodata:   42076 bytes
+Total image size:  190445 bytes (.bin may be padded larger)
+[0/1] cmd.exe /C "cd /D C:\Espressif\frameworks\esp-idf-v5.2.2\projects\I2C\build && C:\Espressif\tools\cmake\3.24.0\bin\cmake.exe -D IDF_SIZE_TOOL=C:/Espressif/python_env/idf5.2_py3.11_env/Scripts/python.exe;-m;esp_idf_size -D MAP_FILE=C:/Espressif/frameworks/esp-idf-v5.2.2/projects/I2C/build/app-template.map -D OUTPUT_JSON= -P C:/Espressif/frameworks/esp-idf-v5.2.2/tools/cmake/run_size_tool.cmake"
